@@ -1,21 +1,46 @@
 #header{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80vh;
-  grid-template-areas: "intro pro-pic link";
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 65vh;
+  grid-template-areas: "intro propic link";
 }
 #intro{
   grid-area: "intro";
   background-color: #f00;
 }
-#pro-pic{
-  grid-area: "pro-pic";
-  background-size: 100% 100%;
-	background-repeat: no-repeat;
-  /*background-color: #00f;*/
-  background-image: url("img/ami.jpg");
+#propic{
+  grid-area: "propic";
+  background-image: url("../img/ami.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 #link{
   grid-area: "link";
   background-color: #f0f;
+}
+#nav{
+  position: sticky;
+  top: 0px;
+  width: auto;
+  height: 25vh;
+  background-color: #8b98d6;
+}
+#text-transform{
+  position:absolute;
+  width: 100vw;
+  bottom: 0px;
+  color: #fff;
+  -webkit-animation:linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 60s;
+}
+@-webkit-keyframes run {
+  0% { left: 100vw;}
+  80% { left: 0vw;}
+  100% { left: -20vw; color:#fff;}
+}
+.hudai{
+  background-color: #ff0;
+  width: auto;
+  height: 300px;
 }
