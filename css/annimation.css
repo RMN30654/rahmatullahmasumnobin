@@ -1,0 +1,14 @@
+#text-transform{
+  position:absolute;
+  width: 100vw;
+  bottom: 0px;
+  color: #fff;
+  -webkit-animation:linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 60s;
+}
+@-webkit-keyframes run {
+  0% { left: 100vw;}
+  80% { left: 0vw;}
+  100% { left: -20vw; color:#fff;}
+}
