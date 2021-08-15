@@ -1,0 +1,15 @@
+.piclogo{
+  position : absolute;
+  left: 100px;
+  top: 100px;
+  background-color: #000;
+  background-image: url("../img/ami.jpg");
+}
+.piclogo:hover{
+  background-image: url("../img/ami.jpg");
+  background-size: 240px, 300px;
+}
+.piclogo:active{
+  background-image: url("../img/ami.jpg");
+  background-size: 240px, 300px;
+}
