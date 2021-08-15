@@ -1,0 +1,21 @@
+#header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80vh;
+  grid-template-areas: "intro pro-pic link";
+}
+#intro{
+  grid-area: "intro";
+  background-color: #f00;
+}
+#pro-pic{
+  grid-area: "pro-pic";
+  background-size: 100% 100%;
+	background-repeat: no-repeat;
+  /*background-color: #00f;*/
+  background-image: url("img/ami.jpg");
+}
+#link{
+  grid-area: "link";
+  background-color: #f0f;
+}
