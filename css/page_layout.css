@@ -14,13 +14,12 @@
 }
 #header{
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 65vh;
+  grid-template-columns: auto 450px auto;
+  grid-template-rows: 600px;
   grid-template-areas: "intro propic link";
 }
 #intro{
   grid-area: "intro";
-  background-color: #f00;
   background-image: url('../img/cooltext390960152535825 (1).png');
   background-size: 100% 100%;
 }
@@ -39,7 +38,6 @@
   top: 0px;
   width: auto;
   height: 150px;
-  background-color: #8b98d6;
   background-image: url("../img/nav.jpg");
   background-size: 100% 100%;
   opacity: 1;
@@ -54,7 +52,8 @@
   background-image: url("../img/ami.png");
   background-size: 100%, 100%;
   animation-name: rotate-img;
-  animation-duration: 20s;
+  animation-delay: 10s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -68,7 +67,8 @@
   white-space: nowrap;
   animation:linear infinite;
   animation-name: run;
-  animation-duration: 20s;
+  animation-delay: 10s;
+  animation-duration: 30s;
 }
 #text-transform-salam{
   position:absolute;
@@ -94,5 +94,6 @@
   bottom: 0px;
   right: 0px;
   margin-bottom: 0px;
+  padding: 0px;
   color: #fff;
 }
