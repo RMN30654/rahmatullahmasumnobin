@@ -1,3 +1,17 @@
+#Salam{
+  position: relative;
+  width: auto;
+  height: 200px;
+  background-image: url('../img/Sixty_dome_mosque_in_the_evening.jpg');
+  background-size: 100% 100%;
+}
+#Bismillah{
+  float: right;
+}
+#RMN{
+  float: left;
+  height: 200px;
+}
 #header{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -8,12 +22,12 @@
   grid-area: "intro";
   background-color: #f00;
   background-image: url('https://scontent.fdac46-1.fna.fbcdn.net/v/t1.6435-9/131987277_2786631834939911_9053908869466019539_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=qdhMsqMN8_kAX8xRgio&_nc_ht=scontent.fdac46-1.fna&oh=ef252a6949d32233d37eeb1ca91135fe&oe=613CF930');
-  background-size: auto 65vh;
+  background-size: 100% 100%;
 }
 #propic{
   grid-area: "propic";
   background-image: url("../img/ami.jpg");
-  background-size: auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 #link{
@@ -24,8 +38,34 @@
   position: sticky;
   top: 0px;
   width: auto;
-  height: 15vh;
+  height: 150px;
   background-color: #8b98d6;
+  background-image: url("../img/nav.jpg");
+  background-size: 100% 100%;
+  opacity: 1;
+}
+.pic-logo{
+  position: absolute;
+  left: 50px;
+  top: 22.5px;
+  width:90px;
+  height:90px;
+  border-radius: 50%;
+  background-image: url("../img/ami.png");
+  background-size: 100%, 100%;
+  animation-name: rotate-img;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#text-transform{
+  position:absolute;
+  width: 100vw;
+  bottom: 7px;
+  color: #000;
+  animation:linear infinite;
+  animation-name: run;
+  animation-duration: 20s;
 }
 
 .hudai{
@@ -37,4 +77,11 @@
   background-color: #f00;
   width: auto;
   height: 300px;
+}
+.copy-right{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: #fff;
 }

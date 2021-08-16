@@ -1,0 +1,6 @@
+pic-logo:hover{
+  transform: rotate(360deg);
+}
+pic-logo:active{
+  transform: rotate(360deg) translate(-14px, -50px);
+}
