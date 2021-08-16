@@ -20,7 +20,7 @@
 }
 #intro{
   grid-area: "intro";
-  background-image: url('../img/cooltext390960152535825 (1).png');
+  background-image: url('../img/rmn-ar-button-blue.png');
   background-size: 100% 100%;
 }
 #propic{
@@ -31,7 +31,30 @@
 }
 #link{
   grid-area: "link";
-  background-color: #f0f;
+  background-color: #0ff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 300px 300px;
+  grid-template-areas: "weblink video1"
+                        "weblink video2";
+}
+.video{
+  margin: auto;
+}
+#video1{
+  grid-area: video1;
+  width: 100%;
+  height: 300px;
+}
+#video2{
+  grid-area: video2;
+  width: 100%;
+  height: 300px;
+}
+#weblink{
+  grid-area: weblink;
+  background-color: #000;
+  height: auto;
 }
 #nav{
   position: sticky;
