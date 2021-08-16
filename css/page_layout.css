@@ -61,7 +61,8 @@
   position:absolute;
   width: 60vw;
   bottom: 15px;
-  color: #000;
+  mirgin:auto;
+  color: #fff;
   overflow: hidden;
   text-overflow: inherit;
   white-space: nowrap;
