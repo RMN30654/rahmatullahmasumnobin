@@ -1,8 +1,11 @@
 
 @keyframes run {
   0% { left: 100vw; color:#f0f; }
-  20%{ color: #fff; }
-  50% { left: 175px; color: #fff;}
+  1%{ color: #f0f; width: 0px;}
+  10%{ color: #fff;}
+  20%{ color: #fff;}
+  40%{ color: #fff;}
+  50% { left: 175px; color: #f0f;}
   55% {left: 130px; color: #f0f; }
   60% {left: 50px; color: #f0f; }
   80% {left: 0px; color: #f0f;}

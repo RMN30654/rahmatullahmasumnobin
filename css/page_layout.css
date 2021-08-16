@@ -47,7 +47,7 @@
 .pic-logo{
   position: absolute;
   left: 50px;
-  top: 22.5px;
+  top: 15px;
   width:90px;
   height:90px;
   border-radius: 50%;
@@ -61,8 +61,10 @@
 #text-transform{
   position:absolute;
   width: 100vw;
-  bottom: 7px;
+  bottom: 15px;
   color: #000;
+  overflow: hidden;
+  white-space: nowrap;
   animation:linear infinite;
   animation-name: run;
   animation-duration: 20s;
