@@ -60,7 +60,7 @@
 }
 #text-transform{
   position:absolute;
-  width: 100vw;
+  width: 50vw;
   bottom: 15px;
   color: #000;
   overflow: hidden;
@@ -70,7 +70,15 @@
   animation-name: run;
   animation-duration: 20s;
 }
-
+#text-transform-salam{
+  position:absolute;
+  width: auto;
+  top: 15px;
+  color: #fff;
+  animation:linear infinite;
+  animation-name: text-right-to-center;
+  animation-duration: 20s;
+}
 .hudai{
   background-color: #ff0;
   width: auto;
