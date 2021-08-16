@@ -64,6 +64,7 @@
   bottom: 15px;
   color: #000;
   overflow: hidden;
+  text-overflow: inherit;
   white-space: nowrap;
   animation:linear infinite;
   animation-name: run;
