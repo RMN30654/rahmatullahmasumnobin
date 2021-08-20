@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Diwanltr";
+  src: url(../Diwanltr.ttf ) format("truetype");
+}
+
+
+#text-transform-salam h1{
+  font-family: "Diwanltr", cursive;
+}
