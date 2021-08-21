@@ -1,3 +1,4 @@
+/*This section welcome a visitor*/
 #Salam{
   position: relative;
   width: auto;
@@ -5,17 +6,32 @@
   background-image: url('../img/Sixty_dome_mosque_in_the_evening.jpg');
   background-size: 100% 100%;
 }
+
 #Bismillah{
   float: right;
 }
+
 #RMN{
   float: left;
   height: 200px;
 }
+
+#text-transform-salam{
+  position:absolute;
+  width: auto;
+  top: 10px;
+  color: #fff;
+  animation:linear infinite;
+  animation-name: salam;
+  animation-duration: 20s;
+}
+
+/*This section show my intro to a visitor*/
+
 #header{
   display: grid;
   grid-template-columns: auto 450px auto;
-  grid-template-rows: 600px;
+  grid-template-rows: 450px;
   grid-template-areas: "intro propic link";
 }
 #intro{
@@ -25,7 +41,7 @@
 }
 #propic{
   grid-area: "propic";
-  background-image: url("../img/ami.jpg");
+  background-image: url("../img/ami.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -56,6 +72,9 @@
   background-color: #000;
   height: auto;
 }
+
+/*Navigation section*/
+
 #nav{
   position: sticky;
   top: 0px;
@@ -65,7 +84,7 @@
   background-size: 100% 100%;
   opacity: 1;
 }
-.pic-logo{
+.pic-logo{ /**/
   position: absolute;
   left: 50px;
   top: 15px;
@@ -80,7 +99,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-#text-transform{
+#text-transform{ /**/
   position:absolute;
   width: 60vw;
   bottom: 15px;
@@ -94,31 +113,32 @@
   animation-delay: 10s;
   animation-duration: 30s;
 }
-#text-transform-salam{
+nav{
   position:absolute;
-  width: auto;
-  top: 15px;
-  color: #fff;
-  animation:linear infinite;
-  animation-name: text-right-to-center;
-  animation-duration: 20s;
+  top: 50px;
+  left: 40vw;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto auto 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-template-areas: ". button button button button .";
+}
+.button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #000;
 }
 
-.hudai{
-  background-color: #ff0;
-  width: auto;
-  height: 300px;
-}
-.hud{
-  background-color: #f00;
-  width: auto;
-  height: 300px;
-}
-.copy-right{
+/*Using copyright position*/
+
+.copy-right{  /**/
   position: absolute;
   bottom: 0px;
   right: 0px;
   margin-bottom: 0px;
   padding: 0px;
   color: #fff;
+  font-size: 5px;
 }
