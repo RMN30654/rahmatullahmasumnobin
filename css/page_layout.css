@@ -94,7 +94,7 @@
   background-image: url("../img/ami.png");
   background-size: 100%, 100%;
   animation-name: rotate-img;
-  animation-delay: 10s;
+  animation-delay: 0s;
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -110,13 +110,13 @@
   white-space: nowrap;
   animation:linear infinite;
   animation-name: run;
-  animation-delay: 10s;
+  animation-delay: 0s;
   animation-duration: 30s;
 }
+/**/
 nav{
   position:absolute;
   top: 50px;
-  left: 40vw;
   display: grid;
   grid-template-columns: 1fr auto auto auto auto 1fr;
   grid-template-rows: auto;
@@ -125,12 +125,22 @@ nav{
 }
 .button{
   border-radius: 50%;
-  width: 30px;
+  border-style: dotted;
+  border-spacing: 0;
+  border-color: #ff0;
+  margin-left: 100px;
+  width: 90px;
   height: 30px;
   text-align: center;
-  background-color: #000;
+  justify-content: center;
 }
-
+nav a{
+  text-decoration: none;
+  position: absolute;
+  font-style: normal;
+  color: #f00;
+}
+/**/
 /*Using copyright position*/
 
 .copy-right{  /**/
